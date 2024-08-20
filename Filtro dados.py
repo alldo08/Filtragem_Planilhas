@@ -22,10 +22,7 @@ class MainWindow(QWidget):
             # Botão de salvar
             self.save_button = QPushButton("Salvar")
             self.save_button.clicked.connect(self.salvar_dados)
-            # Connect the save button to your desired saving functionality (placeholder)
-            #self.save_button.clicked.connect(self.save_data)
 
-            # Table
             self.table = QTableWidget()
 
             layout = QVBoxLayout()
